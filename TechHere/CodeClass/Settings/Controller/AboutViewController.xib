@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AboutViewController">
+            <connections>
+                <outlet property="contentLab" destination="T5B-BD-lfZ" id="B4R-Qd-EkD"/>
+                <outlet property="titleLab" destination="YV2-9i-ECa" id="RVS-w8-o0H"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YV2-9i-ECa">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="76" id="BaX-hI-xBF"/>
+                    </constraints>
+                    <string key="text">TechHere for iOS
+版本：1.0</string>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T5B-BD-lfZ">
+                    <string key="text"> 这是一个简单的小应用，主要是科技类的新闻（还有程序设计相关的一些学习内容）及科技相关的一些播客节目。
+本应用中所有文字及音频内容属于其著作权人，出现的商标属于其合法持有人。
+
+程序开发：Sam, Mike
+
+应用中使用了以下第三方库，特别表示感谢：
+
+MMDrawerController 
+SDCycleScrollView
+WMPageController
+YYWebImage
+FMDB
+MJRefresh
+iOS7Colors</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="T5B-BD-lfZ" secondAttribute="bottom" constant="58" id="6ir-Q5-jOu"/>
+                <constraint firstItem="YV2-9i-ECa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="34" id="Kvk-aI-jK9"/>
+                <constraint firstItem="YV2-9i-ECa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="60" id="LxX-rC-YRv"/>
+                <constraint firstItem="T5B-BD-lfZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="34" id="OwK-h7-ot0"/>
+                <constraint firstAttribute="trailing" secondItem="T5B-BD-lfZ" secondAttribute="trailing" constant="34" id="ZDv-J6-QaU"/>
+                <constraint firstItem="T5B-BD-lfZ" firstAttribute="top" secondItem="YV2-9i-ECa" secondAttribute="bottom" constant="8" id="fN0-OX-jHw"/>
+                <constraint firstAttribute="trailing" secondItem="YV2-9i-ECa" secondAttribute="trailing" constant="34" id="jBY-xG-Kca"/>
+            </constraints>
+            <point key="canvasLocation" x="-345" y="-50"/>
+        </view>
+    </objects>
+</document>
